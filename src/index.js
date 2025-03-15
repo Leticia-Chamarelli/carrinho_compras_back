@@ -11,6 +11,9 @@ const item2 = await createItem("Pingente Kindle", 15.00, 3);
 
 await cartService.addItem(myCart, item1);
 await cartService.addItem(myCart, item2);
+
+await cartService.removeItem(myCart, 2);
+
 await cartService.displayCart(myCart);
 
 // await cartService.deleteItem(myCart, item2.name);

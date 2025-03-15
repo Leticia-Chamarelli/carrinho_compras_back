@@ -14,7 +14,12 @@ async function deleteItem(userCart, name) {
 }
 
 //remove item
-async function removeItem(UserCart, index) {
+async function removeItem(userCart, index) {
+    const deleteIndex = index - 1;
+    
+    if(index >= 0 && index < userCart.lenght) {
+        userCart.splice(deleteIndex, 1);
+    }
     
 }
 
