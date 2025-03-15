@@ -1,6 +1,6 @@
 ## Objective
 
-Criar um carrinho de compras, em que este armazene itens e faça o cálculo de sub-itens automaticamente.
+Create a shopping cart that stores items and automatically calculates sub-items.
 
 
 "# carrinho_compras_back" 
